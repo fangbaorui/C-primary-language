@@ -1,0 +1,3 @@
+﻿  queue.c
+C:\Users\中国人\Documents\bit91\数据结构\队列\queue\queue\queue.c(58,28): warning C4028: 形参 1 与声明不同
+  queue.vcxproj -> C:\Users\中国人\Documents\bit91\数据结构\队列\queue\Debug\queue.exe
