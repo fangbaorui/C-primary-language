@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #define ROW 3
 #define COL 3
 
@@ -25,8 +26,6 @@ char CheckWin(char board[ROW][COL], int row, int col);
 //平局     E  --even
 //继续     C  --continue
 
-
-#include "game.h"
 
 void InitBoard(char board[ROW][COL], int row, int col)
 {  //Init 初始化英文缩写
@@ -81,7 +80,7 @@ void PlayerMove(char board[ROW][COL], int row, int col)
 			printf("坐标非法,请重新输入!\n");//可能玩家会输入100 100,这当然也不行
 	}
 }
-void
+
 void ComputerMove(char board[ROW][COL], int row, int col)
 {
 	printf("电脑下棋:>\n");
@@ -134,9 +133,10 @@ char CheckWin(char board[ROW][COL], int row, int col)
 	{
 		return board[1][1];
 	}
+
 	if (board[0][2] == board[1][1] && board[1][1] == board[2][0] && board[0][2] != ' ')
 	{
-		return board[0][2];
+	   return board[0][2];
 	}
 	//平局
 	if (IsFull(board, row, col) == 1)//这里又调用IsFull函数
@@ -201,9 +201,10 @@ int main()
 			break;
 		default:
 			printf("选择错误,请重新选择!\n);
-				break;
+			break;
 		}
 		system("cls");
 	} while (input - 2);             //直接用到真值判断是否继续游戏
 	return 0;
 }
+

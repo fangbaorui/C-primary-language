@@ -1,7 +1,0 @@
-﻿  test.c
-C:\Users\中国人\Documents\bit91\bitc语言\C进阶习题\test.c2_27\Project1\Project1\test.c(10,7): warning C4013: “menu”未定义；假设外部返回 int
-C:\Users\中国人\Documents\bit91\bitc语言\C进阶习题\test.c2_27\Project1\Project1\test.c(11,9): warning C4013: “printf”未定义；假设外部返回 int
-C:\Users\中国人\Documents\bit91\bitc语言\C进阶习题\test.c2_27\Project1\Project1\test.c(12,8): warning C4013: “scanf”未定义；假设外部返回 int
-C:\Users\中国人\Documents\bit91\bitc语言\C进阶习题\test.c2_27\Project1\Project1\test.c(16,8): warning C4013: “game”未定义；假设外部返回 int
-C:\Users\中国人\Documents\bit91\bitc语言\C进阶习题\test.c2_27\Project1\Project1\test.c(25,9): warning C4013: “system”未定义；假设外部返回 int
-C:\Users\中国人\Documents\bit91\bitc语言\C进阶习题\test.c2_27\Project1\Project1\test.c(30,6): error C2371: “menu”: 重定义；不同的基类型
